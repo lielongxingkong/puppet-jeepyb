@@ -1,7 +1,7 @@
 # == Class: jeepyb
 #
 class jeepyb (
-  $git_source_repo = 'https://git.openstack.org/openstack-infra/jeepyb',
+  $git_source_repo = 'https://github.com/lielongxingkong/jeepyb',
   $git_revision    = 'master',
 ) {
   if ! defined(Package['python-paramiko']) {
